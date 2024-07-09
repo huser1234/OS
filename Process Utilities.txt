@@ -1,0 +1,25 @@
+Process utilities: 
+
+ps : report a snapshot of the current processes 
+Usage: ps [OPTION] 
+eg. ps, ps el 
+
+kill :to kill a process(using signal mechanism) 
+Usage: kill [OPTION] pid 
+eg. kill 9 
+2275 
+
+Tar: to archive a file 
+Usage: tar [OPTION] DEST SOURCE 
+eg. tar cvf 
+/home/archive.tar /home/original 
+tar xvf 
+/home/archive.tar 
+
+Zip:package and compress (archive) files 
+Usage: zip [OPTION] DEST SOURSE 
+eg. zip original.zip original 
+
+unzip: list, test and extract compressed files in a ZIP archive 
+Usage: unzip filename 
+eg. unzip original.zip
